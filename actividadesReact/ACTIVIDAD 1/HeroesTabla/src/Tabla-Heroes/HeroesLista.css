@@ -1,0 +1,61 @@
+/* Estilos generales para la lista de héroes */
+.lista-heroes {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    background: linear-gradient(to bottom right, green, blue);
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* Título de la tabla */
+.titulo-tabla {
+    text-align: center;
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: px;
+    font-weight: bold;
+    text-transform: uppercase; /* letra mayuscula */
+    letter-spacing: 5px; /*espacio entre letra y letra*/
+}
+/* Estilos para la tabla */
+.lista-tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.lista-tabla th, 
+.lista-tabla td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.lista-tabla tr:hover {
+    background: linear-gradient(to bottom right, green, blue);
+    cursor: pointer;
+
+
+}/* Estilo para los encabezados de la tabla */
+.lista-tabla th {
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    letter-spacing: 1px;
+}
+
+/* Estilos para el mensaje cuando no hay resultados */
+.NO-resultado {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #e74c3c;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+/* Añadir bordes redondeados y sombra a las celdas */
+.lista-tabla td {
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
